@@ -1,7 +1,7 @@
 /* HeroesComponent's private CSS styles */
-/*選擇時*/
+/*選擇時的背景*/
 .selected {
-  background-color:#f00638 !important;
+  background-color:#4eda0e !important;
   color: white;
 }
 .heroes {
@@ -27,7 +27,7 @@
 }
 .heroes li:hover {
   color: #607D8B;
-  background-color: #DDD;
+  background-color: rgb(221, 221, 221);
   left: .1em;
 }
 .heroes .text {

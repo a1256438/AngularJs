@@ -16,7 +16,7 @@ export class HeroesComponent implements OnInit {
     name: 'Windstorm'
   };
   selectedHero: Hero;
-
+/**類似javascript onclick概念 */
 onSelect(hero: Hero): void {
   this.selectedHero = hero;
 }
